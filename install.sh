@@ -4,7 +4,7 @@ set -e
 CHROOT_DIR="/opt/debian-modern"
 DEBIAN_RELEASE="bookworm"
 
-echo "[+] BackTrack 5 Modern Integration Script"
+echo "[+] BackTricks for BackTrack 5"
 sleep 2
 
 if ! grep -qi backtrack /etc/issue; then
